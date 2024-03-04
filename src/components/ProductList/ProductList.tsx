@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../../store";
 import { fetchProducts } from "../../store/productService";
 
-const Products = () => {
+const ProductList = () => {
   const dispatch = useDispatch<any>();
   const products = useSelector((state: RootState) => state.products.products);
 
@@ -28,4 +28,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ProductList;

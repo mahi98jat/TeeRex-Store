@@ -1,0 +1,14 @@
+.anchor-element {
+  font-weight: 300;
+  color: rgb(53, 52, 52);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.anchor-element:hover {
+  font-weight: 400;
+  color: rgb(255, 0, 140);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}

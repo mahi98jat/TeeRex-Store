@@ -1,11 +1,16 @@
 import { Provider } from "react-redux";
 import { store } from "./store";
-import { Products } from "./components";
+import { Navigation, Products } from "./components";
+import { AppStructure } from "./components";
 
 function App() {
   return (
     <Provider store={store}>
-      <Products />
+      <AppStructure
+        navigation={<Navigation />}
+        content={<Products />}
+        filters={<h1>filters</h1>}
+      />
     </Provider>
   );
 }

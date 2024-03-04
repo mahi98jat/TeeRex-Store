@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { RootState } from "./initalStates";
+import { RootState } from "./interfaces";
 import { fetchProducts } from "./productService";
 
 const initialState: RootState = {

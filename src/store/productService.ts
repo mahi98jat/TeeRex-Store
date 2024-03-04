@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { Product, RootState } from "./initalStates";
+import { Product, RootState } from "./interfaces";
 
 export const fetchProducts = createAsyncThunk<
   Product[],
